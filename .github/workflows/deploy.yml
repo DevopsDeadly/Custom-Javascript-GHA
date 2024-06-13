@@ -85,5 +85,5 @@ jobs:
           AWS_ACCESS_KEY: ${{secrets.AWS_ACCESS_KEY}}
         with:
           bucket: gha-custom-action-hosted
-          dist-floder: ./dist
+          dist-folder: ./dist
           # bucket-region: us-east-2
